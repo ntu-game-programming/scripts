@@ -1,4 +1,4 @@
-### **Opening Script: The Call of Dreams**
+# **Opening Script: The Call of Dreams**
 
 #### **Scene: A Pitch-Black Space**
 
