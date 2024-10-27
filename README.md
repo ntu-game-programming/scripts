@@ -1,4 +1,4 @@
-# **Story: The Weaver of Dreams**
+# **Story: Dreams Weaver**
 
 #### **Opening**
 
