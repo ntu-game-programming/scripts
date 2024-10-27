@@ -1,4 +1,4 @@
-### **Level Two: The Hall of Broken Mirrors of Love**
+# **Level Two: The Hall of Broken Mirrors of Love**
 
 #### **Scene One: Entrance to the Hall of Mirrors**
 
