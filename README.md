@@ -1,39 +1,131 @@
-# **Story: Dreams Weaver**
 
-#### **Opening**
+# 遊戲大廳
 
-In a tranquil village, there lived a girl named Amy. Always smiling, Amy was filled with dreams, eager to explore every corner of the world. However, as life in the village grew heavier and the villagers faced endless pressures, unable to escape the daily grind and worries, Amy felt the weight of her own pressures increasing, making her dreams seem more elusive.
 
-One day, Amy discovered a mysterious door at the edge of the village, surrounded by an enchanting glow in the air. Filled with curiosity, she opened the door and stepped into the unknown world, unaware that this would be the most important journey of her life.
+## 場景設計
 
----
+0. **背景**
+   - 背景為星空
+   - 隨著進度推進，背景變化為：
+      1. 星空偏暗，星雲靜止，缺乏溫暖感。
+      2. 星空點亮更多星座。
+      3. 星空染上晨光，象徵夢境修復完成。
 
-#### **Lost in the Dream**
+1. **夢境之門**
+   - 每個夢境之門位於不同高度的懸浮平台上，彼此以簡單的階梯或光球鏈接。
+   - **門的狀態變化**：
+     - 未解鎖時：門呈現破舊的形態，散發陰暗光芒。
+     - 已解鎖但未通關：門散發微弱的陰冷光芒。
+     - 已通關：門恢復完整，散發柔和光暈。
+   - 每扇門與其後夢境的主題稍微呼應，帶有主題元素關聯的配色及裝飾
 
-Upon entering the dream, Amy found herself in a distorted and chaotic space. This was a reflection of her inner self, filled with embodiments of doubt, fear, and pressure. The environment constantly shifted, sometimes becoming a gigantic mechanical maze, other times oppressive high-rises. Amy felt lost, unable to find her way, and her anxiety and unease grew. Eventually, she encountered the guide of the dream, a spiritual being. The guide revealed that she was not just a traveler in this dream but also a "Weaver of Dreams," tasked with mending these distorted dreams. Amy realized that every fear and pressure she felt needed to be acknowledged and released. Thus, she began to explore these dreams, confronting each emotion and image.
+2. **夢境之樹**（大廳中央）
+   - 夢境之樹是整個場景的焦點，其樹幹簡潔高聳。
+   - 初始狀態：樹是枯萎的，僅有幾片落葉或乾枝。
+   - 通關進度：每完成一個夢境，樹上就會長出新的枝葉、花朵，為整個場景帶來更多活力。
 
----
+3. **懸浮平台與縱深設計**
+   - 不同高程的懸浮平台是夢之門的所在，各平台以浮動的階梯或穩定的光球相連接。
+   - 平台之間的連接形式：
+     - 初始狀態：僅有簡單的破碎階梯或光球作為跳躍的路徑。
+     - 通關後：通向已完成夢境的路徑會變得完整，讓移動更流暢。
 
-#### **The Dream Levels**
+4. **漂浮記憶碎片**
+   - 小型光球散布漂浮於平台區域。
+   - 玩家可與記憶碎片互動以查看已解鎖的夢境故事摘要，光球顏色和亮度會隨夢境完成度改變。
 
-Amy entered five different levels of dreams, each representing a source of emotion and pressure:
+5. **大廳NPC：夢境嚮導 露娜 (Luna)**
+   - 設定：
+      - 前任夢境編織者的徒弟，但因某次未完成的夢境修復，她失去了自己的夢境能力，只能以助手的形式輔助玩家。
+      - 目的是協助玩家完成所有夢境修復，藉此找回自己的完整記憶與夢境力量。
+   - 位在樹幹底部的固定位置，簡單指引與故事解釋。
+   - 隨著遊戲進展：(a) 從一開始的憂傷逐漸變得充滿希望，可從外觀/眼神/動作反映 (b) 對玩家的稱呼從「織夢者的傳人」逐漸變為更親切的「朋友」。
+   - 對話：另外列出
+      
+6. **其他裝飾物**
+   - 漂浮的沙漏、懸浮書籍、緩緩飛翔的螢光蝴蝶等細節元素，增加場景的生命力。
 
-1. **The Maze of Pressure**: In this maze of giant machines and gears, Amy learned to slow down the passage of time and understand the true sources of her pressure. She discovered a massive clock and successfully slowed its pace.
-2. **The Hall of Mirrors**: In this long corridor filled with mirrors, Amy confronted her emotions, her reflections intertwining and shifting. Each mirror reflected her expectations and fears about love. Amy had to accept her past losses, learn to love herself and others, and find reconciliation in each reflection.
-3. **The Tower of Academia**: In this soaring tower, she overcame her insecurities and doubts, found her own learning rhythm, and accepted her fears of failure.
-4. **The Symphony of Family**: Amy arrived at a stage filled with music and memories, where she reconnected with her family. Each note represented the emotions and experiences of her family members. Through understanding and acceptance, Amy successfully rearranged these notes to create a harmonious symphony.
-5. **The Inner Garden**: Finally, she reached a garden symbolizing her inner self, where each flower represented her dreams and hopes. Amy learned how to nurture these dreams, helping them flourish.
 
-Each level allowed Amy to delve deeper into herself, gradually healing her inner world.
+## 大廳NPC之對話內容
 
----
+此部份與場景美術無關，參考時可忽略。
 
-#### **Rebirth and Return**
+- **A. 第一次對話** (觸發條件：玩家首次進入大廳)
+   "歡迎來到夢境大廳，織夢者的傳人。我是露娜，曾經的夢境編織者助手，如今將輔助你修復這片破碎的世界。"  
+   "你看到的這些夢之門，背後藏著人們的痛苦與掙扎。你的使命，是用你的力量，修復這些夢境。"  
+   "每一道門都代表一個挑戰，但別擔心，我會一直在這裡協助你。如果迷茫，隨時來找我詢問。"
 
-As Amy healed each distorted dream, her inner self began to grow calm and resolute. When she awoke from the dream, she was no longer the fragile girl she once was. With newfound strength, she returned to the village, determined to share her experiences and learnings to help the villagers confront their own pressures and fears.
+- **B1. 荒廢的森林**
+   "左邊較近的那扇門通往一片荒廢的森林。那裡枯萎的樹木，映射了一顆孤獨而封閉的心。"  
+   "艾文是這個夢境的主人。他選擇將自己與他人隔絕，沉浸在自己的世界裡，卻感到愈發孤立與痛苦。"  
+   "請幫助他。這片森林需要你的勇氣與理解，才能重現生命的綠意。"
 
----
+   - ***進入夢境***  
+   "這扇門通往一片荒廢的森林，枯萎的枝葉沉默無聲，映射著艾文孤獨的內心。他躲在這裡，遠離所有人的目光，害怕接觸，也害怕被拒絕。可是，你的出現，或許能改變他的世界。"
+   "走進去吧，織夢者。試著用你的行動告訴他，孤單並非終點，生命的綠意可以重回這片土地。"
 
-#### **Conclusion**
+   - ***夢境中***  
+   "這片森林沉睡已久，但你是否注意到，枯木的縫隙間仍有一絲綠意？生命並未消逝，它只是在等待被喚醒。"
+   "也許，你需要去傾聽這裡的靜謐，感受它的渴望。當你用心連結時，這片荒地便會展現它的秘密。"
 
-Through Amy's efforts, the villagers gradually regained their smiles and reignited their passion for life. Amy's story became a legend in the village, symbolizing hope, courage, and rebirth. Everyone understood that facing the challenges within themselves meant that only by bravely mending their dreams could they find their true selves and weave a beautiful future in life.
+   - ***離開夢境***
+   "你成功了！看這片森林，它已經重新恢復了生機。嫩綠的枝葉在陽光下閃耀，就像艾文的心也漸漸敞開。"
+   "這片荒地不再孤單，而艾文也將慢慢學會與人連結。你的努力點燃了希望，謝謝你，織夢者。"
+
+
+- **B2. 無盡的階梯**  
+   "在右邊靠近些的那扇門後，是一片無盡的階梯。那裡的路永無止境，正如莉莎對方向的迷失。"  
+   "莉莎的心被恐懼束縛，害怕選擇，害怕錯誤。這讓她徘徊不前，深陷迷霧。"  
+   "幫助她找到自己的方向吧，無論結果如何，選擇本身就是力量。"
+
+   - ***進入夢境***  
+   "這扇門後是一片無盡的階梯。它蜿蜒而上，沒有盡頭，就像莉莎深陷迷茫的內心世界。她害怕選擇，也害怕犯錯，於是停滯不前，徘徊在迷霧之中。"
+   "幫助她吧，織夢者。讓她明白，真正的力量來自於選擇本身，而非結果。"
+
+   - ***夢境中***  
+   "階梯看似無盡，但每一步都有其意義。你在猶豫的時候，時間卻在靜靜地流逝。哪怕腳步微弱，前行本身就是突破。"
+   "記住，不必害怕選擇，因為真正的錯誤，是永遠停留在原地。"
+
+   - ***離開夢境***
+   "階梯終於有了出口，迷霧也逐漸消散。莉莎看到了選擇的力量，而非徘徊不前的恐懼。"
+   "謝謝你，織夢者。你的決心不僅改變了這片階梯，也讓她踏出了邁向未來的第一步。"
+
+- **B3. 碎裂的鏡廳**  
+   "遠一些的那扇門，通往卡洛琳的鏡廳。這是一片反映內心世界的夢境，充滿了破碎的影像與扭曲的真相。"  
+   "卡洛琳曾是一位舞者，她的舞步輕盈，卻無法承受自己內心的懷疑與批評。每一面破裂的鏡子，都是她對自己的否定。"  
+   "你能幫助她拾起碎片，重建她對自己的信心嗎？這不僅僅是修復夢境，更是修復她的心靈。"
+
+    - ***進入夢境***  
+   "這些鏡子反映的並非事實，而是她內心的恐懼與懷疑。它們碎裂，是因為她無法面對自己。"
+   "但你能做的，或許只是陪伴與接納，讓她明白，完整並不意味著完美，而是真實的接受自己。"
+
+   - ***夢境中***  
+   "階梯看似無盡，但每一步都有其意義。你在猶豫的時候，時間卻在靜靜地流逝。哪怕腳步微弱，前行本身就是突破。"
+   "記住，不必害怕選擇，因為真正的錯誤，是永遠停留在原地。"
+
+   - ***離開夢境***
+   "破碎的鏡子被你修復，每一面都倒映著卡洛琳真正的樣子。她看到了自己的優雅與力量，而不再只關注那些瑕疵。"
+   "你的行動讓她重新站上舞台，謝謝你，織夢者。"
+
+- **B4. 燃燒的廢墟**  
+   "最遠的那扇門後，是維克多的廢墟。那裡的火焰熊熊燃燒，將他的悔恨與自責化作了無盡的折磨。"  
+   "維克多的心深陷過去的錯誤，他認為一切的失敗都是他的責任，這種痛苦讓他無法面對未來。"  
+   "請幫助他。這場火災需要你的智慧與同理心，才能熄滅。讓他明白，每個人都有重新開始的機會。"
+
+    - ***進入夢境***  
+   "這是一片熊熊燃燒的廢墟。這場火災象徵著維克多對自己過去錯誤的無盡悔恨。他無法原諒自己，也無法逃離這片折磨。"
+   "去幫助他吧，織夢者。讓他明白，每個人都有重新開始的權利。"
+
+   - ***夢境中***  
+   "火焰之所以不熄，是因為它燃燒著過去的悔恨與痛苦。只有當他能坦然面對那些回憶，火焰才會自然消退。"
+   "請幫助他看到，那些錯誤並非終結，而是成長的一部分。過去無法改變，但未來卻能因此更加燦爛。"
+
+   - ***離開夢境***
+   "火焰熄滅了，廢墟也不再令人窒息。維克多終於放下了悔恨，接受了自己的過去。"
+   "你的智慧與同理心，給了他一個全新的開始。謝謝你，織夢者。"
+
+- **C. 完成所有關卡後**  
+   "你做到了，織夢者。夢境的裂痕已被修復，光明再次灑滿這片大廳。"  
+   "那些迷失在痛苦中的靈魂，終於找到了出口。而我，也從你的行動中找回了久違的希望。"  
+   "這一切是你的功勞，朋友。我曾經的使命，現在由你接手。未來的路，屬於你了。"  
+   "你完成了所有夢境修復，織夢者。每一扇門後的痛苦都被你治癒，光明再次灑滿這片大廳。"
