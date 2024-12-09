@@ -1,5 +1,10 @@
 ## **夢境編織者 | Dreamweaver**
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/858db236-d53d-4109-aaeb-b464f70c1037">
+</p>
+
+
 在破碎的夢境世界中踏上一段療癒與冒險的旅程。
 
 ### **遊戲概述**
